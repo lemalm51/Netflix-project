@@ -1,7 +1,7 @@
 .banner{
     margin-top: 10vh;
     height: 80vh;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     color: white;
     object-fit: contain;
 }
@@ -22,4 +22,37 @@
     font-size: 1rem;
     max-width: 360px;
     height: 80px;
+}
+
+
+
+
+.banner_button{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 0.2%;
+    padding: 1rem 3rem;
+    margin-right: 2rem;
+    background-color: rgb(51, 51, 51,0.5);
+}
+ .play{
+    color: #000;
+    background-color: #fff;
+   
+}
+
+
+.banner_button:hover{
+    color: #000;
+    background-color: #6c6c6c;
+     transition: all 0.2s ease-in-out;
+}
+
+.banner_fadeBottom{
+    height: 40vh;
+    background-image: linear-gradient( 180deg, transparent, rgb(37,37,37,0.91), #111 );
 }
